@@ -28,29 +28,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             body{
-                position: absolute;
-                background-image: url(https://source.unsplash.com/random/1920x1080);
-                background-size: cover;
-                
+                background-image : url(https://source.unsplash.com/random/1920x1080/);
             }
             h1{
-                position: absolute;
-                top: 5%;left: 50%;text-align: center; font-size: 90px; color: whitesmoke;
+                text-align: center;
+                font-size: 90px;
+                color: white;
             }
-            .search{
-                font-size: 20px;margin: 400px 0px auto 200px;padding: 5px 10px;border: 1px solid black;"
+            h3{
+                float: right;
+            }
+            #search{
+                position: absolute;
+                top: 70%;
+                bottom: 30%;
+                left: 30%;
+                right: 70%;
+                border: 2px solid black;
+            }
+            .srchbar{
+                padding: 5px 10px;
+                font-size: 25px;
             }
         </style>
     </head>
     <body>
-        <aside>
-            <h3 style="text-align: right;" ><a href="https://www.google.com/search" style="color: white; font-size: large;">switch to google search page</a></h3>
-        </aside>
+        <h3><a href="https://www.google.com/search" style="color: white;">switch to google search page</a></h3>
         <header><h1>WELCOME nerds!</h1></header>
-        <div class="">
+        <div id="search">
             <form action="https://www.google.com/search" method="GET" id="bar">
-                <input type="text" name="q" placeholder="Type here!..." class="search">
-                <button style="color: white; cursor: pointer; font-size: 20px; background-color: black; ">Search</button>
+                <input class="srchbar" type="text" name="q" placeholder="Type here!..." class="search">
+                <button value="search" style="color: white; font-size: 20px; background-color: black;">search</button>
             </form>
         </div>
     </body>
