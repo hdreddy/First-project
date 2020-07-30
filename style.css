@@ -1,17 +1,6 @@
-/*@media (min-width: 1000px)*/
-    body{
-        
-        background-image : url(https://source.unsplash.com/random/1920x1080/);   
-    }
-
-/*@media (min-width: 400px)
-    body{
-        
-        background-image : url(https://source.unsplash.com/random/640x480/); 
-
-    }
-}*/
-
+body{
+    background-image : url(https://source.unsplash.com/random/1920x1080/);
+}
 h1{
     text-align: center;
     font-size: 80px;
