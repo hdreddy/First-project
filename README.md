@@ -1,2 +1,2 @@
 # quarx
-This is my test project 
+Test projects on web development
