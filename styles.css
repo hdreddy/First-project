@@ -12,8 +12,8 @@ background-image: linear-gradient(rgb(195, 188, 212),rgb(53, 49, 59));
   
 /* Header/Blog Title */
 .header {
-padding: 30px;
-font-size: 40px;
+padding: 10px;
+font-size: 30px;
 text-align: center;
 color: whitesmoke;
 background-color: black;
