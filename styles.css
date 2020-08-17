@@ -1,0 +1,96 @@
+* {
+box-sizing: border-box;
+}
+  
+/* Add a gray background color with some padding */
+body {
+font-family: Arial;
+padding: 20px;
+background-image: linear-gradient(rgb(195, 188, 212),rgb(53, 49, 59));
+}
+    
+  
+/* Header/Blog Title */
+.header {
+padding: 30px;
+font-size: 40px;
+text-align: center;
+color: whitesmoke;
+background-color: cornsilk;
+background-image: url(https://source.unsplash.com/random/?dark,abstract); 
+background-position: 100% 100%;
+background-size: cover;
+background-repeat: no-repeat;
+}
+  
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+float: left;
+width: 75%;
+}
+  
+/* Right column */
+.rightcolumn {
+background-color: rgba(233, 178, 187,0.3);
+border-radius: 1%;
+float: left;
+width: 25%;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+}
+
+/*about image*/
+.abtimg{
+display: block;
+text-align: center;
+}
+
+/* Fake image */
+.fakeimg {
+background-color: #aaa;
+width: 100%;
+padding: 20px;
+}
+  
+/* Add a card effect for articles */
+.card {
+background-color: white;
+padding: 20px;
+margin-top: 20px;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+a:hover{
+color: orangered;
+}
+  
+/* Footer */
+.footer {
+padding: 20px;
+text-align: center;
+background: #ddd;
+margin-top: 20px;
+}
+
+img{
+  border-radius: 50%;
+}
+  
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+  width: 100%;
+  padding: 0;
+  }
+}
+
+
+
